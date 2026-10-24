@@ -11,12 +11,13 @@ See and control **everything** that starts with your Mac — not just what *Syst
 - **Actions**: show in Finder, copy path, enable/disable, and remove — removal moves the plist to a quarantine instead of deleting it.
 - **Quarantine**: every removed item keeps its original location, owner and permissions; restore it in one click, move it to the Trash, delete it permanently, or empty the whole quarantine.
 - Icons and names like System Settings, English and French interface (follows your system language).
+- Zoomable interface: ⌘+ / ⌘− / ⌘0.
 
 ## Download
 
-**[⬇︎ Download LaunchWarden 0.2 (DMG)](https://github.com/blckdvc/LauchWarden/raw/main/dist/LaunchWarden-0.2.dmg)** — open it and drag LaunchWarden into Applications.
+**[⬇︎ Download LaunchWarden 0.3 (DMG)](https://github.com/blckdvc/LauchWarden/raw/main/dist/LaunchWarden-0.3.dmg)** — open it and drag LaunchWarden into Applications.
 
-SHA-256: `4deac799c9c1b089938e3144ac2656fa1e2efaa9c00d380f208d3518edea3fa0`
+SHA-256: `cc5505279583ceaea268817fa5c91d4265374cb7c4c706ccfdaafb904b9268df`
 
 **Requires macOS 26 (Tahoe) on Apple silicon.**
 
@@ -37,6 +38,7 @@ To see the full BTM database (what System Settings groups by developer), click t
 
 ## Changelog
 
+- **0.3** — UI zoom (⌘+ / ⌘− / ⌘0, remembered between launches).
 - **0.2** — Quarantine section: one-click restore (original owner/permissions, re-enable, reload), delete permanently, empty quarantine, "Restore To" for older entries.
 - **0.1** — First release.
 
