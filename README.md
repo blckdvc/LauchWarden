@@ -16,7 +16,7 @@ See and control **everything** that starts with your Mac — not just what *Syst
 
 **[⬇︎ Download LaunchWarden 0.2 (DMG)](https://github.com/blckdvc/LauchWarden/raw/main/dist/LaunchWarden-0.2.dmg)** — open it and drag LaunchWarden into Applications.
 
-SHA-256: `56987d76d56901e935a4eebebaec6fc055b45e3069d59620743af25f168f30da`
+SHA-256: `4deac799c9c1b089938e3144ac2656fa1e2efaa9c00d380f208d3518edea3fa0`
 
 **Requires macOS 26 (Tahoe) on Apple silicon.**
 
