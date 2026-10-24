@@ -8,14 +8,15 @@ See and control **everything** that starts with your Mac — not just what *Syst
 - **Real state**: running (with PID), loaded, disabled or orphaned, read live from `launchd`.
 - **Real target**: the actual executable or script behind each item (even `/bin/sh some-script.sh`), its parent app, its plist.
 - **Signature check**: Apple, Developer ID (with Team ID) or unsigned.
-- **Actions**: show in Finder, copy path, enable/disable, and remove — removal never deletes anything, the plist is moved to a quarantine folder so you can undo.
+- **Actions**: show in Finder, copy path, enable/disable, and remove — removal moves the plist to a quarantine instead of deleting it.
+- **Quarantine**: every removed item keeps its original location, owner and permissions; restore it in one click, move it to the Trash, delete it permanently, or empty the whole quarantine.
 - Icons and names like System Settings, English and French interface (follows your system language).
 
 ## Download
 
-**[⬇︎ Download LaunchWarden 0.1 (DMG)](https://github.com/blckdvc/LauchWarden/raw/main/dist/LaunchWarden-0.1.dmg)** — open it and drag LaunchWarden into Applications.
+**[⬇︎ Download LaunchWarden 0.2 (DMG)](https://github.com/blckdvc/LauchWarden/raw/main/dist/LaunchWarden-0.2.dmg)** — open it and drag LaunchWarden into Applications.
 
-SHA-256: `e609368c1578b3f444e725e3780e9575c31d7b5f4198112010dda08c1d37623c`
+SHA-256: `56987d76d56901e935a4eebebaec6fc055b45e3069d59620743af25f168f30da`
 
 **Requires macOS 26 (Tahoe) on Apple silicon.**
 
@@ -33,6 +34,11 @@ xattr -dr com.apple.quarantine /Applications/LaunchWarden.app
 ```
 
 To see the full BTM database (what System Settings groups by developer), click the lock button and enter your administrator password.
+
+## Changelog
+
+- **0.2** — Quarantine section: one-click restore (original owner/permissions, re-enable, reload), delete permanently, empty quarantine, "Restore To" for older entries.
+- **0.1** — First release.
 
 ## Support
 
