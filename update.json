@@ -1,0 +1,7 @@
+{
+  "version": "0.5",
+  "build": 6,
+  "url": "https://github.com/blckdvc/LauchWarden/raw/main/dist/LaunchWarden-0.5.dmg",
+  "sha256": "528f8f4da1a51d2ac8e808e9528f36c76e61e0e47e27a85f4883bc2f58c632c6",
+  "notes": "• Automatic updates: LaunchWarden checks for new versions once a day (LaunchWarden › Check for Updates…).\n• Window picker: click any window on screen to find the process that owns it (⌥⌘P or the scope button in Processes)."
+}

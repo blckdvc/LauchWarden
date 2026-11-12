@@ -20,14 +20,15 @@ See and control **everything** that starts with your Mac — not just what *Syst
 - **New** processes are highlighted in green and **exited** ones stay visible in red for a few seconds.
 - Per-process X-ray: arguments, environment, open files, loaded code, network connections, threads, memory footprint.
 - **CPU and memory history charts**, exportable as CSV or JSON.
+- **Window picker** (⌥⌘P): click any window on screen to find the process that owns it.
 - **Multi-selection** to quit or force quit several processes at once (one administrator prompt for root processes); pause updates (⇧⌘P) so rows stop moving while you select.
 - Processes of other users (root daemons): full details on demand with an administrator password.
 
 ## Download
 
-**[⬇︎ Download LaunchWarden 0.4 (DMG)](https://github.com/blckdvc/LauchWarden/raw/main/dist/LaunchWarden-0.4.dmg)** — open it and drag LaunchWarden into Applications.
+**[⬇︎ Download LaunchWarden 0.5 (DMG)](https://github.com/blckdvc/LauchWarden/raw/main/dist/LaunchWarden-0.5.dmg)** — open it and drag LaunchWarden into Applications.
 
-SHA-256: `8c7bd88f098280e02db250cd3628d4f0b5c8a32317d5db2f1c36d6d9cd83ae1c`
+SHA-256: `528f8f4da1a51d2ac8e808e9528f36c76e61e0e47e27a85f4883bc2f58c632c6`
 
 **Requires macOS 26 (Tahoe) on Apple silicon.**
 
@@ -48,10 +49,15 @@ To see the full BTM database (what System Settings groups by developer), click t
 
 ## Changelog
 
+- **0.5** — Automatic updates (daily check, one-click install and relaunch, SHA-256 and signature verified); window picker.
 - **0.4** — Processes view: launchd origin, process tree, regex search, new/exited highlighting, CPU/memory history with CSV/JSON export, per-process X-ray, multi-selection quit/force quit.
 - **0.3** — UI zoom (⌘+ / ⌘− / ⌘0, remembered between launches).
 - **0.2** — Quarantine section: one-click restore (original owner/permissions, re-enable, reload), delete permanently, empty quarantine, "Restore To" for older entries.
 - **0.1** — First release.
+
+## Updates
+
+From 0.5 on, LaunchWarden checks this repository once a day (`update.json`) and offers to install new versions in one click — *LaunchWarden › Check for Updates…*. Versions before 0.5 must be updated manually once.
 
 ## Support
 
