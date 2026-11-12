@@ -26,9 +26,9 @@ See and control **everything** that starts with your Mac — not just what *Syst
 
 ## Download
 
-**[⬇︎ Download LaunchWarden 0.5 (DMG)](https://github.com/blckdvc/LauchWarden/raw/main/dist/LaunchWarden-0.5.dmg)** — open it and drag LaunchWarden into Applications.
+**[⬇︎ Download LaunchWarden 0.5.1 (DMG)](https://github.com/blckdvc/LauchWarden/raw/main/dist/LaunchWarden-0.5.1.dmg)** — open it and drag LaunchWarden into Applications.
 
-SHA-256: `528f8f4da1a51d2ac8e808e9528f36c76e61e0e47e27a85f4883bc2f58c632c6`
+SHA-256: `78c988f0b45fb3ed3b022f99a966f487f36d35dd56a4378a02b03085b9b92df7`
 
 **Requires macOS 26 (Tahoe) on Apple silicon.**
 
@@ -49,6 +49,7 @@ To see the full BTM database (what System Settings groups by developer), click t
 
 ## Changelog
 
+- **0.5.1** — Fix: the app now relaunches after installing an update (0.5 stayed on “Installing…”; the update was applied but needed a manual relaunch).
 - **0.5** — Automatic updates (daily check, one-click install and relaunch, SHA-256 and signature verified); window picker.
 - **0.4** — Processes view: launchd origin, process tree, regex search, new/exited highlighting, CPU/memory history with CSV/JSON export, per-process X-ray, multi-selection quit/force quit.
 - **0.3** — UI zoom (⌘+ / ⌘− / ⌘0, remembered between launches).
