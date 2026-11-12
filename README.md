@@ -13,11 +13,21 @@ See and control **everything** that starts with your Mac — not just what *Syst
 - Icons and names like System Settings, English and French interface (follows your system language).
 - Zoomable interface: ⌘+ / ⌘− / ⌘0.
 
+### Processes view (Activity Monitor–style)
+
+- Every running process with CPU, memory, user, signature and **the launchd job that started it** — jump straight to the startup item that keeps it alive.
+- Flat list or parent/child **process tree**; filters (mine, third-party, launchd jobs, unsigned); plain or **regular-expression** search.
+- **New** processes are highlighted in green and **exited** ones stay visible in red for a few seconds.
+- Per-process X-ray: arguments, environment, open files, loaded code, network connections, threads, memory footprint.
+- **CPU and memory history charts**, exportable as CSV or JSON.
+- **Multi-selection** to quit or force quit several processes at once (one administrator prompt for root processes); pause updates (⇧⌘P) so rows stop moving while you select.
+- Processes of other users (root daemons): full details on demand with an administrator password.
+
 ## Download
 
-**[⬇︎ Download LaunchWarden 0.3 (DMG)](https://github.com/blckdvc/LauchWarden/raw/main/dist/LaunchWarden-0.3.dmg)** — open it and drag LaunchWarden into Applications.
+**[⬇︎ Download LaunchWarden 0.4 (DMG)](https://github.com/blckdvc/LauchWarden/raw/main/dist/LaunchWarden-0.4.dmg)** — open it and drag LaunchWarden into Applications.
 
-SHA-256: `cc5505279583ceaea268817fa5c91d4265374cb7c4c706ccfdaafb904b9268df`
+SHA-256: `8c7bd88f098280e02db250cd3628d4f0b5c8a32317d5db2f1c36d6d9cd83ae1c`
 
 **Requires macOS 26 (Tahoe) on Apple silicon.**
 
@@ -38,6 +48,7 @@ To see the full BTM database (what System Settings groups by developer), click t
 
 ## Changelog
 
+- **0.4** — Processes view: launchd origin, process tree, regex search, new/exited highlighting, CPU/memory history with CSV/JSON export, per-process X-ray, multi-selection quit/force quit.
 - **0.3** — UI zoom (⌘+ / ⌘− / ⌘0, remembered between launches).
 - **0.2** — Quarantine section: one-click restore (original owner/permissions, re-enable, reload), delete permanently, empty quarantine, "Restore To" for older entries.
 - **0.1** — First release.
