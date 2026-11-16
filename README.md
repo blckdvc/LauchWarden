@@ -13,6 +13,10 @@ See and control **everything** that starts with your Mac — not just what *Syst
 - Icons and names like System Settings, English and French interface (follows your system language).
 - Zoomable interface: ⌘+ / ⌘− / ⌘0.
 
+![LaunchWarden — every startup item with its source, target and signature, and the details of the selected one](docs/screenshot-main.png)
+
+![LaunchWarden — an orphaned item whose target no longer exists, ready to be disabled or removed](docs/screenshot-orphan.png)
+
 ### Processes view (Activity Monitor–style)
 
 - Every running process with CPU, memory, user, signature and **the launchd job that started it** — jump straight to the startup item that keeps it alive.
