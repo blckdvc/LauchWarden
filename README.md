@@ -15,7 +15,11 @@ See and control **everything** that starts with your Mac — not just what *Syst
 
 ![LaunchWarden — every startup item with its source, target and signature, and the details of the selected one](docs/screenshot-main.png)
 
+![LaunchWarden — only the items that are running right now](docs/screenshot-running.png)
+
 ![LaunchWarden — an orphaned item whose target no longer exists, ready to be disabled or removed](docs/screenshot-orphan.png)
+
+![LaunchWarden — the quarantine, where removed items wait to be restored](docs/screenshot-quarantine.png)
 
 ### Processes view (Activity Monitor–style)
 
@@ -27,6 +31,14 @@ See and control **everything** that starts with your Mac — not just what *Syst
 - **Window picker** (⌥⌘P): click any window on screen to find the process that owns it.
 - **Multi-selection** to quit or force quit several processes at once (one administrator prompt for root processes); pause updates (⇧⌘P) so rows stop moving while you select.
 - Processes of other users (root daemons): full details on demand with an administrator password.
+
+![LaunchWarden — every process with its CPU, memory, user, the launchd job that started it and its signature](docs/screenshot-processes.png)
+
+![LaunchWarden — the X-ray of one process: CPU and memory history, origin, arguments and network connections](docs/screenshot-process-detail.png)
+
+![LaunchWarden — the parent/child process tree](docs/screenshot-tree.png)
+
+![LaunchWarden — third-party processes only](docs/screenshot-third-party.png)
 
 ## Download
 
